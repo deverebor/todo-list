@@ -15,7 +15,7 @@ export function TaskList() {
   const [newTaskTitle, setNewTaskTitle] = useState('');
 
   function handleCreateNewTask() {
-    // Verificando se o impute está vazio.
+    // Verificando se o input está vazio.
     if(newTaskTitle.trim() === "") {
       return
     }
